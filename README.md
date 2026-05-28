@@ -41,9 +41,8 @@ Os dados permanecem salvos mesmo após o encerramento do programa.
 ```txt
 sistema-gestao-produtos-c/
 │
-├── SRC/
-│   ├── main.c
-│   └── main.exe
+├── src/
+│   └── main.c
 │
 ├── README.md
 └── .gitignore
@@ -56,7 +55,7 @@ sistema-gestao-produtos-c/
 ### Compilar
 
 ```bash
-gcc SRC/main.c -o programa
+gcc src/main.c -o programa
 ```
 
 ### Executar
@@ -64,7 +63,7 @@ gcc SRC/main.c -o programa
 Windows:
 
 ```bash
-programa.exe
+.\programa.exe
 ```
 
 Linux/macOS:
